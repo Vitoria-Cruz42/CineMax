@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('foto.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 420px;
+    background-color: rgba(20, 20, 20, 0.96);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.login-box h1 {
+    text-align: center;
+    color: #e50914;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 15px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #e50914;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #c40812;
+}
+
+.cadastro-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.cadastro-link a {
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        padding: 30px 25px;
+    }
+
+    .login-box h1 {
+        font-size: 2.2rem;
+    }
+
+    .options {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}
