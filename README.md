@@ -27,3 +27,10 @@ Projeto desenvolvido para a disciplina de Programação Web III (PW3).
 - Julia Moura
 - Pamella Alves
 - Vitória Cruz
+
+#
+**Login do administrador**
+
+Email do admin: admin@gmail.com
+  
+Senha do admin: admin123
